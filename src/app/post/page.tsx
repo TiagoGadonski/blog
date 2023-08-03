@@ -8,7 +8,7 @@ export default function Home() {
         <p className="py-2 px-4 border-2 border-black rounded-3xl font-bold text-xs">FrontEnd</p>
         <p className="py-2 px-4 border-2 border-black rounded-3xl font-bold text-xs">Programação</p>
       </div>
-      <h1 className="text-4xl font-extrabold py-2 w-3/4 text-center m-auto">Introdução ao Next.js: Acelerando o Desenvolvimento Web com Poder e Eficiência</h1>
+      <h1 className="text-4xl font-extrabold py-2 w-4/5 text-center m-auto">Introdução ao Next.js: Acelerando o Desenvolvimento Web com Poder e Eficiência</h1>
       <div>
               <div className="flex gap-2 justify-center">
               <img className="rounded-full w-4 h-4" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="" />
@@ -19,8 +19,8 @@ export default function Home() {
       </div>
       <h4 className="text-sm m-auto w-3/4 font-normal py-2">Se você é um desenvolvedor web em busca de uma estrutura moderna e poderosa para a construção de aplicativos web, então o Next.js pode ser a escolha perfeita para você. Com recursos incríveis e uma comunidade ativa de desenvolvedores, o Next.js tem se destacado como uma das principais opções para o desenvolvimento de aplicativos React.js.</h4>
       <img className="rounded-xl w-full h-72 py-2" src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="" />
-      <div className="mt-8 grid grid-cols-3 gap-24">
-        <div className="col-span-2 text-left text-sm gap-3 grid">
+      <div className="mt-8 md:grid md:grid-cols-3 gap-24 grid-cols-none flex flex-col">
+        <div className="md:col-span-2 text-center md:text-left text-sm gap-3 md:grid">
           <h2 className="text-2xl font-extrabold pt-4">O que é o Next.js?</h2>
 
           <p>Em poucas palavras, o Next.js é um framework do lado do servidor (server-side) para React.js. Ele foi criado com a ideia de tornar o desenvolvimento web mais fácil, permitindo que você se concentre em escrever código e criando aplicativos incríveis, em vez de lidar com complexidades de configuração.</p>
